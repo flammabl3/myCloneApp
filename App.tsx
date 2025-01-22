@@ -35,8 +35,56 @@ export default function App() {
       </View>
       
       {/* middle area container yet to be done by AK */}
+<<<<<<< Updated upstream
       <View style={styles.middleArea}> 
         <Text>Bottom Area</Text>
+=======
+      {/* Middle Area */}
+      <View style={styles.middleArea}>
+        <View style={styles.card}>
+          <View style={styles.cardTextContainer}>
+            <Text style={styles.cardTitle}>About Me</Text>
+            <Text style={styles.cardSubtitle}>
+              What can I say, I'm just a cat bro
+            </Text>
+            <Text style={styles.cardLink}>https://onlydogs.co</Text>
+            <Text style={styles.cardTitle2}>Member Since</Text>
+            <View style={styles.iconRow}>
+              <MaterialCommunityIcons
+                name="discord"
+                size={18}
+                color="#ffffff"
+              />
+              <Text style={styles.cardSubtitle2}>September 11, 2001</Text>
+            </View>
+          </View>
+        </View>
+
+        {/* Connections card */}
+        <View style={styles.card}>
+          <View style={styles.cardTextContainer}>
+            <Text style={styles.cardTitle}>Connections</Text>
+            <View style={styles.connectionsColumn}>
+              <View style={styles.connectionItem}>
+                <MaterialCommunityIcons
+                  name="instagram"
+                  size={30}
+                  color="#E4405F"
+                />
+                <Text style={styles.connectionHandle}>Rae Lil Cat </Text>
+              </View>
+              <View style={styles.connectionItem}>
+                <MaterialCommunityIcons
+                  name="twitter"
+                  size={30}
+                  color="#1DA1F2"
+                />
+                <Text style={styles.connectionHandle}>Rae Lil Cat</Text>
+              </View>
+            </View>
+          </View>
+        </View>
+>>>>>>> Stashed changes
       </View>
 
       {/* bottom area container done by Neeraj */}
